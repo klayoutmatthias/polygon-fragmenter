@@ -37,3 +37,12 @@ poly = fragments.to_polygon()
 print(str(poly))
 ```
 
+## Example
+
+The following image shows the results of such a fragmentation/shift/re-polygonization 
+operation (the red polygon is the result, the violet outline the original polygon):
+
+![Sample](images/fragmented.png)
+
+Here, an alternating shift has been applied to make the shift visible.
+
